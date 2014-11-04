@@ -42,7 +42,7 @@ public class WebServiceDemo2Activity extends Activity {
 			public void onClick(View v) {
 				String tel = mTelEdit.getText().toString().trim();
 				if(tel.length()<7){
-					mTelEdit.setError("输入有误，请重新输入！");
+					mTelEdit.setError("输     入有误，请重新输入！");
 					mTelEdit.setText("");
 					return ;
 				}
